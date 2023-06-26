@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
+    <event name="customer_register_success">
+        <observer name="tecno_customerUpdate_after_register_customer_observer" instance="Tecno\CustomerUpdate\Observer\AfterRegisterCustomerObserver"/>
+    </event>
+</config>

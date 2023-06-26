@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <customer_integration>
+            <general>
+                <api_endpoint>https://649840e49543ce0f49e1ce9c.mockapi.io/magento/customers</api_endpoint>
+            </general>
+        </customer_integration>
+    </default>
+</config>
