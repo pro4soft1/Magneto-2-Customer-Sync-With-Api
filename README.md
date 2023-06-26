@@ -1,0 +1,1 @@
+# magneto-customer-integration-example
